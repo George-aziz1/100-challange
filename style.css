@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Marhey', cursive;
+    background-color: rgba(134, 13, 233);
+    color: white;
+}
+
+span {
+    color: rgb(209, 255, 5);
+}
+
+header {
+    margin: 30px;
+}
+
+.container {
+    margin: 30px;
+    font-size: 22px;
+}
+
+#btn {
+    background-color: green;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: transparent;
+}
+
+#output {
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 150px;
+}
